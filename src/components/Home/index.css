@@ -1,0 +1,249 @@
+.Home-bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.about-container {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.hr-line {
+  overflow: hidden;
+  text-align: center;
+  color: #ff7b00;
+}
+
+.our-products-container {
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.hr-container {
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.hr-line:before,
+.hr-line:after {
+  background-color: #ff7b00;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+@media screen and (max-width: 1000px) {
+  .hr-line {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hr-line:before,
+  .hr-line:after {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+}
+
+.hr-line:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.hr-line:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.about-description {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.about-choice-text {
+  font-weight: bold;
+}
+.crackers-img {
+  margin-top: 30px;
+}
+@media screen and (min-width: 700px) {
+  .description-container {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .description {
+    font-size: 12px;
+  }
+  .about-choice-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .crackers-img {
+    display: none;
+  }
+  .about-container {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .our-products-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .hr-container {
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .crackers-img {
+    display: none;
+  }
+  .about-container {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .our-products-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .hr-container {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .hr-line {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .crackers-img {
+    height: 125px;
+    margin-top: 30px;
+  }
+}
+/*  */
+
+.quick-view-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.product-img-container {
+  height: 500px;
+  width: 45%;
+  border: solid lightgrey 2px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .product-img-container {
+    height: 400px;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .product-img-container {
+    height: 350px;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .product-img-container {
+    height: 250px;
+    width: 35%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .product-img-container {
+    height: 200px;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .product-img-container {
+    height: 200px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .product-img-container {
+    height: 200px;
+    width: 120px;
+  }
+}
+.product-img {
+  width: 100%;
+  height: 90%;
+}
+
+.text-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  align-items: center;
+}
+.quick-view-button {
+  color: white;
+  background-color: red;
+  border: solid 0px;
+  width: 180px;
+  height: 40px;
+}
+.bomb-name {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+  .bomb-name {
+    font-size: 10px;
+  }
+  .quick-view-button {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .bomb-name {
+    font-size: 8px;
+  }
+  .quick-view-button {
+    width: 80px;
+    height: 30px;
+    font-size: 8px;
+  }
+}

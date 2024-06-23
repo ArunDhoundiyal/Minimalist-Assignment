@@ -1,0 +1,315 @@
+.card {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 55%;
+  max-width: 1000px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  outline: none;
+  z-index: 1000;
+  overflow: auto;
+}
+
+.hide-card {
+  display: none;
+}
+.close-button {
+  cursor: pointer;
+}
+
+.card-image-container {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  overflow: auto;
+}
+
+.pop-up-card-heading-close-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1170px) {
+  .card-image-container {
+    width: 700px;
+  }
+}
+
+.sub-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.card-image {
+  width: 100%;
+}
+
+@media screen and (max-width: 1170px) {
+  .card-image {
+    width: 100%;
+    height: 77%;
+  }
+}
+
+.sub-horizontal-card-image {
+  height: 80px;
+}
+.horizontal-card-image {
+  height: 80px;
+  width: 120px;
+}
+
+@media screen and (max-width: 1170px) {
+  .sub-horizontal-card-image {
+    height: 80px;
+    width: 100px;
+  }
+  .horizontal-card-image {
+    height: 80px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .card-image-container {
+    width: 600px;
+  }
+  .card-image {
+    width: 100%;
+    height: 77%;
+  }
+  .sub-horizontal-card-image {
+    height: 80px;
+    width: 80px;
+  }
+  .horizontal-card-image {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.top-pop-up-card-heading {
+  font-weight: 500;
+}
+.mrp {
+  font-weight: 500;
+  font-size: 18px;
+}
+.mrp-text {
+  font-weight: bold;
+  font-size: 22px;
+}
+.product-description {
+  font-weight: 500;
+}
+
+.list-style {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.arrow-icon {
+  color: #fca400;
+}
+
+.shipping-time {
+  font-weight: 500;
+}
+
+.choose-button {
+  background-color: red;
+  color: white;
+  border: solid 0px;
+  height: 45px;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+p {
+  margin: 0px;
+}
+
+.dotted-hr-line {
+  border-top: 1px dashed red;
+}
+
+@media screen and (min-width: 952px) {
+  .card-content {
+    margin-left: 18px;
+  }
+  .close-icon {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 952px) {
+  .close-icon {
+    display: none;
+  }
+  .close-icon-button-container {
+    width: 100%;
+    text-align: end;
+  }
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-image-container {
+    width: 100%;
+  }
+  .card-image {
+    width: 100%;
+  }
+  .sub-horizontal-card-image {
+    height: 80px;
+    width: 20%;
+  }
+  .horizontal-card-image {
+    height: 80px;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub-horizontal-card-image {
+    height: 80px;
+    width: 130px;
+  }
+  .horizontal-card-image {
+    height: 80px;
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub-horizontal-card-image {
+    height: 80px;
+    width: 120px;
+  }
+  .horizontal-card-image {
+    height: 80px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub-horizontal-card-image {
+    height: 80px;
+    width: 110px;
+  }
+  .horizontal-card-image {
+    height: 80px;
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub-horizontal-card-image {
+    height: 70px;
+    width: 100px;
+  }
+  .horizontal-card-image {
+    height: 70px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub-horizontal-card-image {
+    height: 60px;
+    width: 90px;
+  }
+  .horizontal-card-image {
+    height: 60px;
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub-horizontal-card-image {
+    height: 50px;
+    width: 70px;
+  }
+  .horizontal-card-image {
+    height: 50px;
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub-horizontal-card-image {
+    height: 40px;
+    width: 60px;
+  }
+  .horizontal-card-image {
+    height: 40px;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 312px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub-horizontal-card-image {
+    height: 30px;
+    width: 50px;
+  }
+  .horizontal-card-image {
+    height: 30px;
+    width: 50px;
+  }
+}
